@@ -1,0 +1,10 @@
+🔥 DOM Challenge 2: “Task List Manager”
+
+
+🎯 Goal:Build a simple To-Do List app that lets users:
+
+-Add tasks via an input field.
+-Mark tasks as complete.
+-Delete individual tasks.
+-Show total & completed tasks.
+-Filter tasks by "All", "Completed", or "Incomplete".

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task List Manager</title>
+  <style>
+    .task {
+      padding: 10px;
+      margin: 5px;
+      border: 1px solid #333;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .done {
+      text-decoration: line-through;
+      color: gray;
+    }
+    button {
+      margin-left: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Task List Manager</h1>
+  <input type="text" id="taskInput" placeholder="Enter new task">
+  <button id="addTask">Add Task</button>
+
+  <div>
+    <button id="showAll">All</button>
+    <button id="showCompleted">Completed</button>
+    <button id="showIncomplete">Incomplete</button>
+  </div>
+
+  <div id="taskList"></div>
+
+  <p>Total: <span id="totalCount">0</span> | Completed: <span id="doneCount">0</span></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
