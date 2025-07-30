@@ -1,0 +1,25 @@
+💻 DOM Challenge: "Box Playground"
+🎯 Goal:
+You will create a page where users can:
+-Add new boxes.
+-Modify existing boxes.
+-Remove boxes.
+-Traverse between boxes.
+
+ Your Tasks (in script.js):
+
+✅ 1. Add New Box
+When "Add Box" is clicked, create a new box with the next number 
+
+✅ 2. Remove Last Box
+When "Remove Last Box" is clicked, remove the last box and Show an alert when there are no boxes left.
+
+✅ 3. Highlight 2nd Box
+When "Highlight 2nd Box" is clicked:
+Change the background color of the second box to yellow.
+Reset others to lightgray.
+
+
+✅ 4. Duplicate First Box
+When "Duplicate First Box" is clicked:
+Clone the first .box and append it to the container.
