@@ -8,3 +8,29 @@
 -Delete individual tasks.
 -Show total & completed tasks.
 -Filter tasks by "All", "Completed", or "Incomplete".
+
+
+✅ 1. Add New Task
+When "Add Task" is clicked:
+Get value from input.
+Create a .task div with the task text.
+Add two buttons: ✅ "Done" and ❌ "Delete".
+Append to #taskList.
+Clear the input field.
+
+✅ 2. Mark as Done
+When "Done" button is clicked:
+Toggle .done class on the task.
+
+✅ 3. Delete Task
+When "Delete" button is clicked:
+Remove that task.
+
+✅ 4. Update Counts
+Total tasks = all .task elements.
+Completed tasks = tasks with .done.
+
+✅ 5. Filter
+"All" button → Show all tasks.
+"Completed" → Show only .done tasks.
+"Incomplete" → Show tasks without .done.

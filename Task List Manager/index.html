@@ -3,11 +3,16 @@
 <head>
   <title>Task List Manager</title>
   <style>
+    body{
+        text-align: center;
+    }
     .task {
       padding: 10px;
       margin: 5px;
       border: 1px solid #333;
       display: flex;
+      width: 50%;
+      margin-left: 25%;
       justify-content: space-between;
       align-items: center;
     }
@@ -18,6 +23,17 @@
     button {
       margin-left: 10px;
     }
+    .action{
+        margin-top: 3%;
+    }
+    #taskList{
+        margin-top: 12px;
+    }
+    #all{
+        display: flex;
+        gap: 2;
+        justify-content: center;
+    }
   </style>
 </head>
 <body>
@@ -26,7 +42,7 @@
   <input type="text" id="taskInput" placeholder="Enter new task">
   <button id="addTask">Add Task</button>
 
-  <div>
+  <div class="action">
     <button id="showAll">All</button>
     <button id="showCompleted">Completed</button>
     <button id="showIncomplete">Incomplete</button>
