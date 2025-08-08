@@ -1,0 +1,27 @@
+Task 1: Display Product List with Add Buttons
+Create a list of 5 products (name and price).
+Each product should have an "Add to Cart" button next to it.
+Initially, the cart total should be zero.
+
+
+Task 2: Add Product to Cart and Update Total
+When the user clicks "Add to Cart" on a product:
+Add the product price to the cart total displayed on the page.
+Update the total dynamically without refreshing the page.
+
+
+Task 3: Remove Product from Cart and Update Total
+Add a "Remove" button or checkbox next to each product in the cart summary.
+When clicked/unchecked, subtract the product price from the total.
+Make sure the total updates correctly when products are removed.
+
+
+
+Task 4: Show Cart Items Count
+Display the number of items currently in the cart.
+Update this count every time a product is added or removed.
+
+
+Task 5: Disable Add Button for Already Added Products
+Once a product is added to the cart, disable its "Add to Cart" button to prevent duplicate addition.
+Enable the button again if the product is removed from the cart.

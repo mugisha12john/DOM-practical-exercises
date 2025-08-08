@@ -1,0 +1,99 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f6f6f6;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+section {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.price {
+  color: #666;
+  margin-left: 10px;
+}
+
+.add-btn, #add-product-btn {
+  padding: 5px 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.remove-btn {
+  padding: 5px 10px;
+  border: none;
+  background-color: rgb(181, 6, 6);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.add-btn:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+.remove-btn {
+  background-color: #dc3545;
+}
+
+.cart-summary {
+  margin-top: 15px;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+  font-size: 1.1em;
+}
+
+.add-product input {
+  padding: 5px;
+  margin-right: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.add-product button {
+  background-color: #28a745;
+}
+.disabled {
+  cursor: not-allowed;
+  color: gray;
+  opacity: 0.6;
+}

@@ -2,6 +2,8 @@ const taskInput = document.getElementById('taskInput')
 const addTask = document.getElementById('addTask')
 const taskList = document.getElementById('taskList')
 
+
+
 function updateOfTotal() {
   const tasks = document.querySelectorAll('.task');
   const completed = document.querySelectorAll('.task.done');
@@ -11,7 +13,7 @@ function updateOfTotal() {
 
 addTask.addEventListener('click',()=>{
     if(taskInput.value.trim().length > 0){
-    const task = document.createElement('div');
+        const task = document.createElement('div');
     task.className = 'task';
 
     const done= document.createElement('button')
