@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom practical</title>
+    <style>
+        .change{
+            color: rgb(187, 10, 10);
+            font-family: cursive;
+            font-weight: 800;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h3>Style Paragraph when button is clicked: font,size,color</h3>
+        <p id ='text'>JavaScript DOM Exercises</p> 
+        <button id="btn-change" onclick="jschange()">Change style</button>
+    </div>
+    <h3>Show firstname and lastname when click on the get button</h3>
+    <form id="form1" onsubmit="getFormvalue()">
+        First name: <input type="text" name="fname" title="enter firstname"><br><br>
+        Last name: <input type="text" name="lname" title="enter lastname" ><br>
+        <input type="submit" value="Get">
+     </form>
+    <script src="script.js"></script>
+</body>
+</html>
