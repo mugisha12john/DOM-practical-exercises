@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM exercies - Timer</title>
+    <style>
+        .timer-view{
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+                .controls{
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .box{
+            background-color: lightgreen;
+            width: 400px;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-content: center ;
+            flex-direction: row;
+            gap: 10px;
+        }
+        span{
+            font-size: 44px;
+            font-weight: bold;
+            transform: translate(30%,40%);
+        }
+        .sub{
+            background-color: lightgreen;
+            font-size: 34px;
+            font-weight: bold;
+            border: none;
+            padding: 10px;
+            width: 100px;
+            height: 60px;
+            margin-top: 60px;
+            transition: 0.4ms ease;
+        }
+        .add{
+            background-color: lightgreen;
+            font-size: 34px;
+            font-weight: bold;
+            border: none;
+            padding: 10px;
+            width: 100px;
+            height: 60px;
+            margin-top: 60px;
+            transition: 0.4ms ease;
+        }
+        .sub:hover{
+            cursor: pointer;
+            background-color: rgb(218, 191, 191);
+        }
+        .add:hover{
+            cursor: pointer;
+            background-color: rgb(222, 222, 222);
+        }
+        .go{
+            background-color: lightgreen;
+            font-size: 24px;
+            font-weight: bold;
+            border: none;
+            padding: 10px;
+            width: 200px;
+            height: 80px;
+            margin-top: 60px;
+            transition: 0.4ms ease;
+            
+        }
+        .reset{
+            background-color: lightgreen;
+            padding: 10px;
+            font-size: 24px;
+            font-weight: bold;
+            border: none;
+            width: 200px;
+            height: 80px;
+            margin-top: 60px;
+            transition: 0.4ms ease;
+        }
+        .disable{
+            background-color: lightgrey;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="timer-view">
+        <button id="sub" class="sub">-</button>
+        <div class="box">
+           <span>32s</span> 
+        </div>
+        <button id="add" class="go">+</button>
+        </div>
+
+        <div class="controls">
+            <button id="reset" class="reset">Reset</button>
+            <button id="go" class="go">Start</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
