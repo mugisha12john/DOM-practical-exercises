@@ -17,7 +17,6 @@ const Mostword = Object.entries(count)
 .map(([word]) => word)
 
 
-
 const originalWords = text.split(' '); 
 
 const highlighted = originalWords.map(word => {
